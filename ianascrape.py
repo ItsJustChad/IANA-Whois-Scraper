@@ -37,4 +37,4 @@ for link in ianaTable.findAll('a'):
 		print tldName, ianaTLDLatin.group(1)
 		lineWriter.writerow((tldName,ianaTLDLatin.group(1)))
 
-tldCSV.close()
+whoisCSV.close()
