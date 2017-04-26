@@ -31,7 +31,7 @@ for link in ianaTable.findAll('a'):
 
 	if whoisServer is not None:
 		print tldName, ianaTLDLatin.group(1), whoisServer.group(1)
-		lineWriter.writerow((tldName,ianaTLDLatin.group(0),whoisServer.group(1)))
+		lineWriter.writerow((tldName,ianaTLDLatin.group(1),whoisServer.group(1)))
 
 	else:
 		print tldName, ianaTLDLatin.group(1)
